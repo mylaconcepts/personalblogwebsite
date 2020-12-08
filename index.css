@@ -1,0 +1,129 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+}
+.intro {
+	background-image: url("img/IMG-1417.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	margin: auto;
+	width: 100%;
+	height: 100%;
+}
+@font-face {
+  font-family: RockSalt-Regular;
+  src: url(font/RockSalt-Regular.ttf);
+  font-weight: bold;
+}
+.name {
+	font-family: RockSalt-Regular;
+	font-size: 200%;
+	padding-left: 10px;
+}
+#nav__list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  border: 5px solid black;
+  position: absolute;
+  margin-top: 538px;
+  background-color: #fbc616;
+  width: 100%;
+  height: 40px;
+}
+li.nav__item {
+   display: inline;
+   padding: 120px;
+   font-size: 150%;
+   font-family: RockSalt-Regular;
+}
+.about {
+	background-color: #16fbef;
+	width: 100%;
+	height:600px;
+	margin-bottom: 0px;
+}
+.left {
+	float: left;
+	width: 50%;
+	text-align: center;
+	font-family: RockSalt-Regular;
+}
+.right {
+	float: right;
+	width: 50%;
+	text-align: center;
+	padding-top:200px;
+	font-family: verdana, sans-serif;
+}
+img {
+	margin-top: 100px;
+	border-radius: 50%;
+}
+.work {
+	background-color: #45c0ba;
+	width: 100%;
+	height: 600px;
+	margin-top: 0px;
+}
+.work__intro {
+	font-family: RockSalt-Regular;
+	padding-top: 50px;
+	padding-left: 50px;
+}
+	
+.strength__list {
+	font-family: verdana, sans-serif;
+}
+.contact {
+	background-color: #f8c3a0;
+	width: 100%;
+	height: 300px;
+	padding-top: 50px;
+	padding-left: 50px;
+	font-family: verdana, sans-serif;
+}
+.contact__info{
+	font-family: verdana, sans-serif;
+
+@media (max-width: 1100px) {}
+	.navbar-header {
+        float: none;
+    }
+    .navbar-left,.navbar-right {
+        float: none !important;
+    }
+    .navbar-toggle {
+        display: block;
+    }
+    .navbar-collapse {
+        border-top: 1px solid transparent;
+        box-shadow: inset 0 1px 0 rgba(255,255,255,0.1);
+    }
+    .navbar-fixed-top {
+		top: 0;
+		border-width: 0 0 1px;
+	}
+    .navbar-collapse.collapse {
+        display: none!important;
+    }
+    .navbar-nav {
+        float: none!important;
+		margin-top: 7.5px;
+	}
+	.navbar-nav>li {
+        float: none;
+    }
+    .navbar-nav>li>a {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .collapse.in{
+  		display:block !important;
+	}
+	.nav.collapse {
+		display: none !important;
+	  }
+	}
