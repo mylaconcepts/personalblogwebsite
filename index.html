@@ -3,44 +3,34 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
-	<link rel="stylesheet" type="text/css" href="index.css">
-	<script src="myscripts.js"></script>
+	<link rel="stylesheet" href="style/index.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="style/mediahome.css">
 	<title>Martine Yemma</title>
+	<nav>
+		<a href="#" id="menu-icon"></a>
+		<ul>
+		  <li><a href="#about">About</a></li>
+		  <li><a href="#work">Work</a></li>
+		  <li><a href="#contact">Contact</a></li>
+		</ul>
+	</nav>
   </head>
   <body>
     <div class="intro">
-    <header id="top">
-	  <div class="name">
+	<header id="top"></header>
+	<div class="name">
 		<p>Martine Yemma</p>
 	  </div>
-	</header>
-	<div class="mynav">
-	<nav class="navbar navbar-expand navbar-dark bg-primary">
-		<div class="navbar-collapse collapse">
-			<ul class="navbar-nav pt-1">
-			  <li class="nav-item active">
-			    <a class="nav-link" href="#about">About</a>
-			  </li>
-			  <li class="nav-item">
-			    <a class="nav-link" href="#work">Work</a>
-			  </li>
-			  <li class="nav-item">
-			    <a class="nav-link" href="#contact">Contact</a>
-			  </li>
-		    </ul>
-		</div>
-	</nav>
-	</div>
 	</div>
   <main>
     <section id="about" class="about">
 	  <div class="left">
 	    <img src="img/me.jpg" alt="picture of Martine Yemma" width="250" height="300">
 	   <p>About</P>
-		<a class="top" href="#top">Top</a>
 	  </div>
 	  <div class="right">
-	    <p> A professional and innovative individual who acclimates to a
+	    <p> A Los Angeles native professional and innovative individual who acclimates to a
         team and environment quickly. I am organized and have meticulous attention
         to detail with the ability to pivot between competing priorities and constantly
         think of ways to streamline the workflow and efficiencies of the team.<br> 	
@@ -50,24 +40,44 @@
 	</section>
 	<section id="work" class="work">
 	    <p class="work__intro">Work</p>
-	  <div class="strengths">
-	    <ul class="strength__list">
-		  <li class="strength__item">Process Management: With big-picture understanding and
-efficient implementation</li>
-          <li class="strength__item">Communications: With an ability to adjust messages for written, verbal presentation.</li>
-          <li class="strength__item">Relationships: With an understanding of the complex dynamics of people and positions.</li>
-		</ul>
-	  </div>
-	  <div class="blog">
-		  <a class="blog-link" href="blog.html">BLOG</a>
-	  </div>
-	  <a class="top" href="#top">Top</a>
+		<div class="card one">
+            <img class="card-img-top" src="https://rb.gy/feczxq" alt="Card image cap">
+            <div class="card-body">
+              <h3 class="card-title">Process Management</h3>
+              <p class="card-text">With big-picture understanding and efficient implementation.</p>
+            </div>
+          </div>
+      <div class="card two">
+        <img class="card-img-top" src="https://bit.ly/3mGgGLg" alt="Card image cap">
+        <div class="card-body">
+          <h3 class="card-title">Communications</h3>
+          <p class="card-text">With an ability to adjust messages for written, verbal presentation.</p>
+        </div>
+      </div>
+    <div class="card three">
+        <img class="card-img-top" src="https://bit.ly/2KJAv72" alt="Card image cap">
+        <div class="card-body">
+          <h3 class="card-title">Relationships</h3>
+          <p class="card-text">With an understanding of the complex dynamics of people and positions.</p>
+        </div>
+	</div>
+	<div class="card four">
+        <div class="blog">
+			<a class="blog-link" href="blog.html">BLOG</a>
+		</div>
+        <div class="card-body">
+          <p class="card-text">Go ahead and click the button above to see my blog page and dive deeper.</p>
+		</div>
+    </div>
     </section>
 	<section id="contact" class="contact">
 	  <p class="contact__info">If you would like to collaborate on a project I am available for freelance and full-time employment</p>
-	  <p class="contact__info">Martine Yemma</p>
-	  <p class="contact__info">mmyemma@gmail.com</p>
-	  <p class="contact__info">www.linkedin.com/in/martine-yemma</p>
+	  <div class="btmnav">
+		<a class="fa fa-github" href="https://github.com/mylaconcepts" alt="github link"></a>
+		<a class="fa fa-stack-overflow" href="https://stackoverflow.com/u/14784592" alit="stack overflow link"></a>
+		<a class="fa fa-linkedin" href="http://www.linkedin.com/in/martine-yemma" alt="linkedIn link"></a>
+		<a class="fa fa-envelope" href="mailto: mmyemma@gmail.com" alt="email me"></a>
+		</div>
 	  <a class="top" href="#top">Top</a>
 	</section>
   </main>

@@ -1,0 +1,163 @@
+@import url("contactmain.css");
+@import url("htmlbody.css");
+@import url("card.css");
+
+@font-face{
+	src: url(../font/RockSalt-Regular.ttf);
+	font-family: RockSalt-Regular;
+	font-weight: bold;
+}
+.intro {
+	background-image: url("../img/IMG-3068.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 100%;
+	height: 800px;
+}
+.name {
+	font-family: RockSalt-Regular;
+	font-size: 1.5rem;
+	color: cornsilk;
+	width: 30%;
+	text-align: center;
+	background-color:black;
+	position: relative;
+	left: 30%;
+	border-radius: 15%;
+	border: solid white;
+}
+nav {
+	padding-left: 0px;
+	position: absolute;
+	border-radius: 4px 4px 0 0;
+}
+nav a {
+	color: cornsilk;
+	font-family: RockSalt-Regular;
+}
+ul {
+	list-style: none;
+}
+li {
+	display: inline-block;
+	padding: 10px;
+	padding-left: 0px;
+}
+.about {
+	background-color: #16fbef;
+	display: flex;
+	flex-direction: row;
+	width: 100%;
+	height: 600px;
+	margin-bottom: 0px;
+}
+.left {
+	width: 50%;
+	text-align: center;
+	font-family: RockSalt-Regular;
+}
+.right {
+	width: 50%;
+	height: 50%;
+	text-align: center;
+	padding-top:200px;
+	font-family: verdana, sans-serif;
+}
+img {
+	margin-top: 100px;
+	border-radius: 50%;
+}
+.work {
+	background-color: #45c0ba;
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-template-rows: auto;
+	grid-gap:10px;
+	grid-template-areas: 
+	"work work"
+	"one two"
+	"three four";
+	border-top: 10px solid  #45c0ba;
+	
+}
+.work__intro {
+	font-family: RockSalt-Regular;
+	text-align: center;
+	grid-area: work;
+}
+.card-img-top { 
+	width: 50%;
+	margin: 10px;
+	margin-left: 25%;
+	border-radius: 5px;
+}
+.card-body {
+	margin: auto;
+	text-align: center;
+	font-size: 1rem;
+}
+.card-title {
+	font-family: RockSalt-Regular;
+	text-align: center;
+	font-size: 1rem;
+}
+.card-text {
+	font-size: 12px;
+	text-align: center;
+	font-size: 1rem;
+}
+.one {
+	grid-area: one;
+}
+.two {
+	grid-area: two;
+}
+.three {
+	grid-area: three;
+}
+.four {
+	grid-area: four;
+}
+.contact {
+	background-color: #f8c3a0;
+	width: 100%;
+	height: 300px;
+	padding-top: 50px;
+	padding-left: 50px;
+	font-family: verdana, sans-serif;
+}
+.blog {
+	margin: 40px auto 5px 40%;
+	font-size: 1rem;
+	position: relative;
+}
+
+.blog-link:link, .blog-link:visited  {
+	background-color: #0c8eab;
+	color: white;
+	padding: 14px 25px;
+	text-align: center;
+	display: inline-block;
+	text-decoration: none;
+	font-family: RockSalt-Regular;
+	border-radius: 10px;
+}
+
+.blog-link:hover, .blog-link:active {
+	background-color: #ab3e0c;
+}
+
+.btmnav {
+	font-size: xx-large;
+	margin:auto;
+	
+}
+.contact__info{
+	font-family: verdana, sans-serif;
+}
+
+.fa {
+	padding: 50px;
+	text-decoration: none;
+	color:slateblue
+}

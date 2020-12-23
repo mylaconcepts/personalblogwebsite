@@ -1,0 +1,59 @@
+@media all and (max-width: 900px) {
+	.mynav li { flex-basis: 100%; 
+	} 
+	.card-img-top{
+		border-radius: 5px;
+		margin-left: 25%;
+	}
+	.card{
+		width:40vw;
+		height: 50vh;
+		margin: 0 auto;
+		margin-bottom: 20px;
+		font-size: 1rem;
+	}
+	.name{
+		margin-left: 35%;
+		width: 175px;
+	}
+	.blog {
+		margin: 40px auto 5px 25%;
+		width:25%;
+		font-size: .5rem;
+	}
+}
+
+@media all and (max-width: 480px) {
+	nav {
+		display: flex;
+		flex-wrap: wrap;
+		width:0px;
+		justify-content: space-between;
+		margin-top: 10%;
+		  }
+	nav a:hover {
+		background: #00ace6;
+	  }
+	.name{
+		margin-left: 15%;
+		width: 175px;
+	}
+	.about{
+		flex-direction: column;
+		height: 800px;
+	}
+	.right {
+		padding-top: 0px;
+		width: 100%;
+	}
+	.card-body{
+		margin: auto;
+        text-align: center;
+        font-size: 30%;
+	}
+	.card-title {
+		font-family: RockSalt-Regular;
+		text-align: center;
+		font-size: .75rem;
+	}
+}

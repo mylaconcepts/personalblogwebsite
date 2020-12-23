@@ -1,0 +1,83 @@
+html,body {
+    width: 100%;
+    overflow-x: hidden; 
+}
+.container{
+    background:lightblue;
+}
+@font-face {
+    font-family: RockSalt-Regular;
+    src: url(font/RockSalt-Regular.ttf);
+    font-weight: bold;
+}
+.header {
+	background: coral;
+	width: 100%;
+    height: 200px;
+    font-family: RockSalt-Regular;
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+
+}
+.link{
+    text-decoration: none;
+}
+.main{
+    margin: 50px auto 20px;
+    border: cornflowerblue solid 5px;
+    border-radius: 10%;
+    width: 75vw;
+    padding: 10px;
+}
+.images{
+   display: flex;
+   justify-content: flex-start;
+   margin: 0 auto 20px;
+}
+.img{
+    height:10rem;
+    margin: 1rem 1rem 0 2.5rem;
+}
+.one{
+   width: 25vw;
+   height:100%;
+}
+.two{
+    width: 35vw;
+    height:100%;
+}
+.three{
+    width: 25vw;
+    height:100%;
+}
+.footer{
+    font-family: RockSalt-Regular;
+    border: cyan solid 2px;
+    width: 100%;
+    padding-top: 15px;
+    background: lightcoral;
+}
+.btm{
+    padding: 30px;
+    text-decoration: none;
+    margin: 0 auto;
+}
+@media all and (max-width: 1010px){
+    .images{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin: 0 auto 20px;
+    }
+    .two{
+        width: 50vw;
+        height:100%;
+    }
+}
+@media all and (max-width: 284px){
+    .footer{
+        display:flex;
+        flex-wrap: wrap;
+    }
+}

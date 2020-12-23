@@ -1,0 +1,10 @@
+.card {
+	width:40vw;
+	margin: 0 auto;
+	margin-bottom: 20px;
+    font-family: verdana, sans-serif;
+	border: 1px solid black;
+	border-radius: 2em;
+	background-color: coral;
+	font-size: 1rem;
+}
